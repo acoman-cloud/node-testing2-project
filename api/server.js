@@ -6,7 +6,7 @@ const server = express();
 
 server.use(express.json());
 
-server.use('/api/pokemon', pokeminRouter)
+server.use('/api/pokemon/abilites', pokeminRouter)
 
 server.get("/", (req, res) => {
   res.status(200).json({ api: "up" });

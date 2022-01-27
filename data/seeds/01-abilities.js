@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
 						'Porygon-Z',
 						'Basculin',
 						'Basculegion',
-					]
+					],
 				},
         { 
 					ability_name: 'Arena Trap',
