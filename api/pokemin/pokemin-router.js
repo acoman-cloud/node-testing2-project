@@ -20,7 +20,7 @@ router.get('/:id', (req, res, next) => {
 router.post('/', (req, res, next) => {
 	Poke.insert(req.body)
 		.then(created=>{
-			res.status(200).json(created)
+			res.status(201).json(created)
 		})
 		.catch(next)
 })

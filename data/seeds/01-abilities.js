@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
 				},
 				{ 
 					ability_name: 'Blaze',
-					description: "Blaze increases the power of Fire-type moves by 50% (1.5×) when the ability-bearer's HP falls below a third of its maximum (known in-game as in a pinch).", 
+					description: 'blaze bro', 
 					pokemon:[
 						'Charmander',
 						'Charmeleon',
