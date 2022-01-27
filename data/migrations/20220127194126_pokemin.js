@@ -7,7 +7,7 @@ exports.up = function (knex) {
 		table.increments('ability_id');
 		table.string('ability_name', 126).unique().notNullable();
 		table.string('description').notNullable()
-		table.array('pokemon').notNullable()
+		table.specificType('pokemon', 'text ARRAY').notNullable()
 	})
 };
 
